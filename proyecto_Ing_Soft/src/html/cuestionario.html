@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>cuestionario</title>
+    <script src="preguntas.js" type="text/javascript"></script>
+    <script src="metodos.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <section id="cuestionario">
+        <div align="center">
+            <h2>Aqui va la mini App web de QUIZ</h2>
+        </div>
+
+        <div align="rigth" class="preguntas">
+            <font size=5>
+                <form name="cuestionario">
+                    <div id="contadorPreguntas"></div>
+                    <div id="pregunta"></div>
+                    <div id="respuestas"></div>
+                    <div id="ValidaPregunta"></div>
+                </form>
+                <div align="center">
+                    <input id="Boton1" type="button" value="Siguiente" onclick="comprobar()">
+                    <input id="Boton2" type="button" value="Intentar de nuevo" onclick="reiniciar()">
+                </div>
+
+        </div>
+        <p align="center">
+            <a href="../index.html"><img src="../images\home.ico" border="1"></a>
+            <!--cambiar por imagen o icono-->
+            <a href="menu.html"><img src="../images\menu6.ico" border="1"></a>
+            <!--cambiar por icono-->
+        </p>
+        </font>
+        <script type="text/javascript">
+            generarPregunta();
+        </script>
+    </section>
+
+</body>
+
+</html>

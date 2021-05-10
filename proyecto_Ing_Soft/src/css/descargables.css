@@ -1,0 +1,22 @@
+/*Estilos para los botones del sitio de descargas*/
+
+.buttons_container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style_buttons_container {
+    background-color: #F4F6F6;
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+}
+
+div ul li {
+    list-style: none;
+}

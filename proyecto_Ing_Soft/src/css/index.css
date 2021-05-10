@@ -1,0 +1,18 @@
+/*Estilos de la caratula del inicio*/
+
+.main_container {
+    margin: 1em;
+    /*ajustar este valor para que sea responsivo*/
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_conteiner {
+    padding: 1em;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}

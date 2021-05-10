@@ -1,0 +1,89 @@
+<!--Nueva Version mejorada del Proyecto de ingenieria de Software-->
+<!--
+@author: Santiago Lopez Ricardo
+@author: ricardosantilo96@gmail.com
+@version: 2.0
+@description:
+    -Reestructuración del Proyecto
+    -sugerencia: utilizar XMLHTTPRequest para leer archivos txt y desplegar el texto
+-->
+<!--caratula-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!--Estilos para la pagina-->
+    <link rel="stylesheet" href="src/css/navbar_sitio.css">
+    <link rel="stylesheet" href="src/css/sections_sitio.css">
+    <link rel="stylesheet" href="src/css/footer_sitio.css">
+    <link rel="stylesheet" href="src/css/site_theme.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <!--Fuentes instaladas desde Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <title>Inicio</title>
+</head>
+<!--Despliegue de la caratula-->
+
+<body>
+    <!--Barra de navegación del sitio-->
+    <nav class="style_Bars">
+
+        <ul>
+            <li class="li">
+                <a href="index.html"><img src="./resources/img/site_logo.jpg" alt="logoMenu"></a>
+            </li>
+            <li class="li"><a href="index.html" class="button_Menu style_buttons_menu">inicio</a></li>
+            <li class="li">
+                <a href="" class="button_Menu style_buttons_menu">explorar temas</a>
+                <ul class="desplegable">
+                    <li>
+                        <a href="src/html/t1_test_plan.html" class="button_Menu_des style_buttons_menu">Plan de pruebas</a>
+                    </li>
+                    <li>
+                        <a href="src/html/t2_test_desing.html" class="button_Menu_des style_buttons_menu">Diseño de pruebas</a>
+                    </li>
+                    <li>
+                        <a href="src/html/t3_test_apply.html" class="button_Menu_des style_buttons_menu">Aplicación de pruebas</a>
+                    </li>
+                    <li>
+                        <a href="src/html/t4_documentation.html" class="button_Menu_des style_buttons_menu">Documentación</a>
+                    </li>
+                    <li>
+                        <a href="src/html/t5_err_analitic.html" class="button_Menu_des style_buttons_menu">Análisis de errores</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="li"><a href="src/html/quiz.html" class="button_Menu style_buttons_menu">ir a cuestionario</a> </li>
+            <li class="li"><a href="src/html/media.html" class="button_Menu style_buttons_menu">multimedia</a></li>
+            <li class="li"><a href="src/html/descargables.html" class="button_Menu style_buttons_menu">descargables</a></li>
+            <li class="li"><a href="#" onclick="info()" class="button_Menu style_buttons_menu">acerca de</a></li>
+        </ul>
+    </nav>
+
+    <div class="main_container">
+        <div class="info_conteiner">
+            <h2>UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO</h2>
+            <p>
+                <br>INGENIERÍA DE SOFTWARE<br><br>
+                <br>5.4 PLAN DE PRUEBAS<br>
+                <br>SANTIAGO LÓPEZ RICARDO<br>
+                <br>ZALDÍVAR ZAMORATEGUI ORLANDO ING.<br>
+                <br>GRUPO: 5<br>
+                <br>2017-2<br>
+                <small>proyecto reconstruido y con el objetivo de servir como plantilla de sitio web mas profesional 2021</small>
+            </p>
+            <br>
+            <a class="button_Menu style_buttons_menu" href="src/html/t1_test_plan.html">iniciar XP</a>
+        </div>
+    </div>
+
+    <footer class="style_Bars style_footer">
+        Web Basica: Remake del proyecto de Ingenieria de Software @musalori
+    </footer>
+    <!--Controladores del sitio-->
+    <script src="src/js/info.js"></script>
+</body>
+
+</html>

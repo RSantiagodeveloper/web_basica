@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <!--Estilos para la pagina-->
+    <link rel="stylesheet" href="../css/navbar_sitio.css">
+    <link rel="stylesheet" href="../css/sections_sitio.css">
+    <link rel="stylesheet" href="../css/footer_sitio.css">
+    <link rel="stylesheet" href="../css/site_theme.css">
+    <!--Fuentes instaladas desde Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <title>Ingeniería de Software: Pruebas</title>
+</head>
+
+<body>
+    <!--Barra de navegación del sitio-->
+    <nav class="style_Bars">
+
+        <ul>
+            <li class="li">
+                <a href="../../index.html"><img src="../../resources/img/site_logo.jpg" alt="logoMenu"></a>
+            </li>
+            <li class="li"><a href="../../index.html" class="button_Menu style_buttons_menu">inicio</a></li>
+            <li class="li">
+                <a href="" class="button_Menu style_buttons_menu">explorar temas</a>
+                <ul class="desplegable">
+                    <li>
+                        <a href="./t1_test_plan.html" class="button_Menu_des style_buttons_menu">Plan de pruebas</a>
+                    </li>
+                    <li>
+                        <a href="./t2_test_desing.html" class="button_Menu_des style_buttons_menu">Diseño de pruebas</a>
+                    </li>
+                    <li>
+                        <a href="./t3_test_apply.html" class="button_Menu_des style_buttons_menu">Aplicación de pruebas</a>
+                    </li>
+                    <li>
+                        <a href="./t4_documentation.html" class="button_Menu_des style_buttons_menu">Documentación</a>
+                    </li>
+                    <li>
+                        <a href="./t5_err_analitic.html" class="button_Menu_des style_buttons_menu">Análisis de errores</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="li"><a href="./quiz.html" class="button_Menu style_buttons_menu">ir a cuestionario</a> </li>
+            <li class="li"><a href="./media.html" class="button_Menu style_buttons_menu">multimedia</a></li>
+            <li class="li"><a href="./descargables.html" class="button_Menu style_buttons_menu">descargables</a></li>
+            <li class="li"><a href="#" onclick="info()" class="button_Menu style_buttons_menu">acerca de</a></li>
+        </ul>
+
+    </nav>
+    <!--Seccion del contenidos de cada tema-->
+    <section class="Contenido style_sections">
+
+        <head>
+            <h1 class="style_titles">Realización de las pruebas</h1>
+        </head>
+
+        <article class="cont_info style_info">
+            <br>
+            <p>
+                La ejecución de las pruebas se realiza de acuerdo a las siguientes fases según el estándar IEEE std.1008 [IEEE 1986]:
+            </p>
+            <ol>
+                <li>Ejecución de pruebas previamente diseñadas: Aquí se tratan de rastrear fallos o errores que varían según su naturaleza y estos deben ser depurados. La naturaleza del fallo podría deberse a Error de software, si es así se recurre a la depuración
+                    del código. Si se trata de un fallo en el diseño, entonces se debe depurar el diseño de la prueba.</li>
+                <li>Comprobar la conclusión del proceso de prueba: se verifica el cumplimiento de los requerimientos de compleción de pruebas descrito en el diseño del plan de pruebas.</li>
+                <li>Si ha terminado se puede decidir entre Evaluar resultados o realizar pruebas adicionales: Si se ha finalizado exitosamente, entonces se evalúan los resultados (terminaciones normales), si no, se realiza una evaluación nuevamente o se añaden
+                    pruebas adicionales (terminaciones anormales).</li>
+            </ol>
+        </article>
+    </section>
+    <!--Barra lateral-->
+    <aside class="lateral style_asides">
+        <!--Reproductor de audio-->
+        <audio class="style_audio" controls><source src="../../resources/audio/RunningWaters.mp3"></audio>
+        <!--Controles de la pagina-->
+        <div class="container_in_aside style_containers_in_aside">
+            <ul>
+                <li><a href="../../resources/docs/Tema_X.pdf" class="style_aside_a">Descargar tema en pdf</a></li>
+                <li><a href="#ejemplo" class="style_aside_a">Vizualizar ejemplo</a></li>
+                <li><a href="http://google.com.mx/" class="style_aside_a">Mas enlaces</a></li>
+                <li><a href="./t4_documentation.html" class="style_aside_a">Visitar siguiente Tema</a></li>
+            </ul>
+        </div>
+
+        <!--Bibliografias-->
+        <div class="container_in_aside style_containers_in_aside">
+            <ul>
+                <li>Aycart Pérez,David; et al "ingeniería del software en entornos de Software Libre", Segunda edición,UOC Editorial Barcelona 2007</li>
+                <li>
+                    Alonso Amo, Fernando; et al, "Introducción a la ingeniería del software", primera edición, Delta publicaciones, Madrid España, 2005.
+                </li>
+                <li>
+                    S. Pressman, Roger,"ingeniería de software: un enfoque práctico", séptima EdiciónMcGraw Hill México D.F. 2010 pp 383,410
+                </li>
+            </ul>
+        </div>
+
+    </aside>
+    <!--Contenido Multimedia-->
+    <section class="multimedia Contenido style_sections">
+        <a name="ejemplo"></a>
+        <h1 class="style_titles">Titulo del ejemplo</h1>
+        <iframe width="100%" height="512" src="https://www.youtube.com/embed/iPhSacpmIGg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <!--Pie de pagina-->
+    <footer class="style_Bars style_footer">
+        Web Basica: Remake del proyecto de Ingenieria de Software @musalori
+    </footer>
+
+    <!--Controladores del sitio-->
+    <script src="../js/info.js"></script>
+</body>
+
+</html>
